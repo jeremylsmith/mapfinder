@@ -21,3 +21,4 @@ There is a good chance that if there is only 1 match, it will be the position of
 
 That's pretty much it!
 
+Binary boulderdash.bin is a binary of the C64 game Boulderdash provided as a source file. Please contact if this infringes your copyright.
