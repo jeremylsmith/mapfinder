@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 
 	vector<int>searchfor;
 
-	if (arg1 == "--help")
+	if (argc == 1)
 	{
 		printf("MapFinder version 1.0\n");
 		printf("(c)2019 Jeremy Smith\n");
