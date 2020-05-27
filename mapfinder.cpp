@@ -23,7 +23,7 @@ INFORMATION
   e-mail: jeremy@decompiler.org
 */
 
-//boulderdash.bin 1 2 1 2 1 1 1 10 1 2 1 2 1 1 2 1 2 returns 594 / 2529
+//boulderdash.bin 1 2 1 2 1 1 1 10 1 2 1 2 1 1 2 1 2 returns 2529
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,14 +35,9 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-	string arg1;
-
-	if (argc == 2)
-		arg1 = argv[1];
-
 	vector<int>searchfor;
 
-	if (argc == 1)
+	if ((argc == 1) || (argc == 2))
 	{
 		printf("MapFinder version 1.0\n");
 		printf("(c)2019 Jeremy Smith\n");
